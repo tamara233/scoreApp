@@ -1,0 +1,90 @@
+.header {
+    background-color: #fff;
+    color: white;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1920px;
+
+    h1 {
+        background: linear-gradient(90deg, #008000, #00FF00);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    }
+
+    nav {
+        ul {
+            list-style: none;
+            padding: 0;
+            display: flex;
+            gap: 25px;
+
+        }
+
+        li {
+            display: inline;
+            margin-right: 10px;
+
+            &:hover {
+                border-bottom: 1px solid #333;
+                transition: 100ms ease;
+            }
+        }
+
+        a {
+            color: #333;
+            text-decoration: none;
+        }
+    }
+
+    .sign {
+        border: 1px solid #333;
+        border-radius: 8px;
+        height: 40px;
+        width: 80px;
+        background: transparent;
+        cursor: pointer;
+
+        &:hover {
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+            transition: 100ms ease
+        }
+        
+    }
+
+    /* styles/SearchButton.module.scss */
+
+    .searchContainer {
+        display: flex;
+        align-items: center;
+    }
+
+    .searchInput {
+        flex: 1;
+        height: 40px;
+        padding: 0 10px;
+        border: none;
+        border-bottom: 1px solid #ccc;
+        margin-right: 10px;
+        outline: none;
+    }
+
+    .searchButton {
+        background-color: transparent;
+        border: none;
+        padding: 0;
+        cursor: pointer;
+    }
+
+    .searchIcon {
+        width: 24px;
+        height: 24px;
+        stroke: #ccc;
+        transition: stroke 0.3s ease;
+    }
+
+    .searchButton:hover .searchIcon {
+        stroke: #555;
+    }
+}

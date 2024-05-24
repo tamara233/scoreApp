@@ -1,16 +1,19 @@
 .header {
     background-color: #fff;
-    color: white;
-    padding: 10px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    max-width: 1920px;
+   & > div{
+       color: white;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        max-width: 1600px;
+    margin: auto;
 
+   } 
+   
     h1 {
         background: linear-gradient(90deg, #008000, #00FF00);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
     }
 
     nav {

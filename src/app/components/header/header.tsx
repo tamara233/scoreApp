@@ -15,6 +15,7 @@ const Header = () => {
     };
   return (
     <header className={styles.header}>
+      <div className="max-content">
       <h1>ScorePro</h1>
       <div className={styles.searchContainer}>
       <button className={styles.searchButton} onClick={handleSearch}>
@@ -42,6 +43,7 @@ const Header = () => {
       <button className={styles.sign}>
        Sign out
       </button>
+      </div>
     </header>
   );
 };

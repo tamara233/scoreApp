@@ -1,0 +1,65 @@
+.members {
+    background-color: #fff;
+    padding: 20px;
+    max-width: 1600px;
+    margin: auto;
+    margin-top: 40px;
+
+    h1 {
+        font-size: 32px;
+        margin-bottom: 20px;
+        font-weight: 400;
+        span {
+            color: #f1cd04;
+            font-size: 25px;
+        }
+      }
+      
+      .table {
+        width: 100%;
+        border-collapse: collapse;
+        margin-top: 20px;
+      }
+      thead {
+        height: 40px;
+      }
+      th {
+        font-weight: 500;
+        font-size: 18px;
+      }
+      
+      .table th, .table td {
+        padding: 8px;
+        text-align: left;
+      }
+     .table tr{
+         border-bottom: 1px solid #ddd;
+     } 
+      
+      .table th {
+        background-color: #f2f2f2;
+      }
+      td.active {
+        color: green;
+      }
+      td.inactive {
+        color: rgb(198, 3, 3);
+      }
+      td {
+        font-weight: 300;
+      }
+      .action {
+        cursor: pointer;
+      }
+      tbody tr {
+        height: 50px;
+      }
+      
+      .singleMember:hover {
+        background-color: #f1f1f1;
+      }
+      
+      .singleMember td {
+        padding: 12px 8px;
+      }
+}
